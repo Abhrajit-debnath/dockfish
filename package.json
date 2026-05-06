@@ -1,7 +1,7 @@
 {
   "name": "dockfish",
   "version": "1.0.0",
-  "description": "Docklet is a tool that makes learning docker easy and generate Dockerfiles in seconds through terminal",
+  "description": "Dockfish is a tool that makes learning docker easy and generate Dockerfiles in seconds through terminal",
   "license": "MIT",
   "author": "Abhrajit Debnath",
   "type": "module",
