@@ -1,6 +1,6 @@
 # 🐟 Dockfish 
 
-A fully open-source CLI tool that helps beginners generate and learn Dockerfile in seconds.
+A fully open-source CLI tool that helps beginners generate Dockefiles and learn Docker in seconds.
 
 
 ## Why Dockfish?
