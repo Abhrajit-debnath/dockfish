@@ -1,0 +1,27 @@
+{
+  "name": "dockfish",
+  "version": "1.0.0",
+  "description": "Docklet is a tool that makes learning docker easy and generate Dockerfiles in seconds through terminal",
+  "license": "MIT",
+  "author": "Abhrajit Debnath",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "dockfish": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "engines": {
+    "node": ">=25.0.0",
+    "npm": ">=11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
