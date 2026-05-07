@@ -1,3 +1,5 @@
+   > 🚧 Work in Progress: Launching soon. Stars appreciated!
+
 # 🐟 Dockfish 
 
 A fully open-source CLI tool that helps beginners generate Dockefiles and learn Docker in seconds.
