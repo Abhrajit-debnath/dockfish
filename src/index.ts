@@ -17,7 +17,6 @@ const initProgram = () => {
         })
 
     program.parse()
-
 }
 
 
