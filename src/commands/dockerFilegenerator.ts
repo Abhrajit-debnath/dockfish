@@ -13,9 +13,9 @@ const dockerfileGenerator = async () => {
 
     try {
 
-        await fileCheck()
+         await fileCheck()
 
-        p.outro("All checks passed!")
+        p.outro("DockerFile generated !")
 
     } catch (error) {
         handleError(error)

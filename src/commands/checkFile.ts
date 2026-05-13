@@ -2,6 +2,7 @@ import { files_stack } from '../config/files.config.js';
 import optionsInit from '../functions/userOptions.function.js';
 import fs from "fs"
 import * as p from '@clack/prompts';
+import dockerTemplate from '../template/docker.template.js';
 
 
 interface userInput {
@@ -72,8 +73,18 @@ const fileCheck = async () => {
                 return `Found start script: ${file_data.scripts.start}`
 
             }
+        },
+        {
+            title: 'Generating Dockerfile...',
+            task: async () => {
+                await new Promise(t => setTimeout(t, 1500))
+                fs.writeFileSync("DockerFile", dockerTemplate(userInputs))
+                return "File generated"
+            }
         }
     ])
+
+
 }
 
 export default fileCheck
